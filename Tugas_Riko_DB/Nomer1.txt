@@ -1,0 +1,1 @@
+SELECT ig_username, COUNT(url) as total_content_2020 FROM tbl_scraping WHERE ig_username = 'surabaya' AND YEAR(taken_at) = 2020
